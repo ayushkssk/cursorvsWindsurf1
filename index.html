@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor vs Windsurf AI Comparison</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">AI IDE Comparison</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#comparison">Compare</a>
+            <a href="#reviews">Reviews</a>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Cursor vs Windsurf AI</h1>
+        <p>Discover the Perfect AI-Powered IDE for Your Development Journey</p>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Key Features Comparison</h2>
+        <div class="comparison-grid">
+            <div class="comparison-card">
+                <h3>Code Completion</h3>
+                <div class="comparison-content">
+                    <div class="ide-feature">
+                        <h4>Cursor</h4>
+                        <p>Advanced AI-powered completions with context awareness</p>
+                    </div>
+                    <div class="ide-feature">
+                        <h4>Windsurf</h4>
+                        <p>Revolutionary AI Flow paradigm with predictive assistance</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comparison-card">
+                <h3>User Interface</h3>
+                <div class="comparison-content">
+                    <div class="ide-feature">
+                        <h4>Cursor</h4>
+                        <p>Clean, minimal interface focused on productivity</p>
+                    </div>
+                    <div class="ide-feature">
+                        <h4>Windsurf</h4>
+                        <p>Modern, intuitive design with seamless AI integration</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comparison-card">
+                <h3>AI Capabilities</h3>
+                <div class="comparison-content">
+                    <div class="ide-feature">
+                        <h4>Cursor</h4>
+                        <p>GitHub Copilot integration with smart suggestions</p>
+                    </div>
+                    <div class="ide-feature">
+                        <h4>Windsurf</h4>
+                        <p>Advanced AI agent with autonomous coding capabilities</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comparison-card">
+                <h3>Performance</h3>
+                <div class="comparison-content">
+                    <div class="ide-feature">
+                        <h4>Cursor</h4>
+                        <p>Lightweight and fast with minimal resource usage</p>
+                    </div>
+                    <div class="ide-feature">
+                        <h4>Windsurf</h4>
+                        <p>Optimized for performance with powerful AI processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comparison" class="detailed-comparison">
+        <h2>Detailed Comparison</h2>
+        <div class="comparison-table">
+            <div class="table-header">
+                <div class="column">Feature</div>
+                <div class="column">Cursor</div>
+                <div class="column">Windsurf</div>
+            </div>
+            <div class="table-row">
+                <div class="column">Price</div>
+                <div class="column">Free</div>
+                <div class="column">Free</div>
+            </div>
+            <div class="table-row">
+                <div class="column">Platform Support</div>
+                <div class="column">Windows, macOS, Linux</div>
+                <div class="column">Windows, macOS, Linux</div>
+            </div>
+            <div class="table-row">
+                <div class="column">Language Support</div>
+                <div class="column">Multiple languages</div>
+                <div class="column">Extensive language support</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h2>User Reviews</h2>
+        <div class="review-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://via.placeholder.com/50" alt="User" class="review-avatar">
+                    <div class="review-info">
+                        <h4>John Doe</h4>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p>"Windsurf AI has revolutionized my coding workflow. The AI agent is incredibly intuitive!"</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://via.placeholder.com/50" alt="User" class="review-avatar">
+                    <div class="review-info">
+                        <h4>Jane Smith</h4>
+                        <div class="rating">⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <p>"Cursor's simplicity and powerful features make it my go-to IDE for daily development."</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 AI IDE Comparison. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            const themeButton = document.querySelector('.theme-toggle');
+            themeButton.textContent = document.body.classList.contains('dark-theme') ? '☀️' : '🌙';
+        }
+    </script>
+</body>
+</html>
